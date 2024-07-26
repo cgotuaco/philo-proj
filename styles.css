@@ -1,0 +1,190 @@
+/* Place your CSS styles in this file */
+
+html {
+  scroll-behavior: smooth;
+}
+
+title {
+  height:580px;
+}
+
+div.sec-1 {
+margin-left: 25px;
+margin-right: 25px;
+}
+
+div.sec-2 {
+margin-left: 25px;
+margin-right: 25px;
+}
+
+div.sec-3 {
+margin-left: 25px;
+margin-right: 25px;
+}
+
+div.last-para {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+div.ul-1 {
+  text-align: left;
+}
+
+div.ul-2:hover {
+  background-color: aliceblue;
+  text-transform: capitalize;
+  text-decoration: solid;
+  transition-duration: 2s;
+transition-timing-function: linear;
+}
+
+
+div.Casey-Gotuaco {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 16pt;
+  font-weight: bold;
+  letter-spacing: 0.1in;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 0.5in;
+}
+
+ h1:hover {
+  color: midnightblue; text-shadow: 4px 4px whitesmoke;
+}
+
+h1 {
+  transition: transform 1s;
+}
+
+h1:hover {
+  transform: scale(1.5);
+  animation-name: highlight;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+  background-size: 200%;
+    background-image: linear-gradient(to right, white 50%, transparent 50%), 
+                      linear-gradient(transparent 50%, teal 30%);
+}
+
+hr {
+  border-radius: 5px;
+}
+
+h3:hover {
+  color: midnightblue;
+}
+
+h3 {
+  transition: transform 1s;
+}
+
+h3:hover {
+  transform: scale(1.5);
+  text-decoration-line: underline;
+}
+
+
+h2 {
+  letter-spacing: 0.5px;
+  font-size: 0.4in;
+}
+
+h2 {
+  align-content: center;
+  box-align: center;
+  text-align: center;
+}
+
+h2 {
+  margin: 0 auto;
+  padding: 10px;
+  width: 600px;
+  border: 5px solid #888;
+  border-radius: 10px;
+}
+
+button {
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 20px;
+}
+
+
+button:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
+h2:hover {
+  border-color: midnightblue;
+    color: midnightblue;
+    box-shadow: 6px 4px 8px -2px;
+   transition-duration: 1s;
+}
+
+
+ul {
+    list-style-position: inside;    
+    text-align: left;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+  border-top: 3px solid rgb(88, 70, 45);
+}
+
+img {
+  text-align: center;
+}
+
+.letter {
+  transform: scale(1.2);
+  transition-duration: 1.5s;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+div.last-para {
+font-family: 'Courier New', Courier, monospace;
+font-weight: medium;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
